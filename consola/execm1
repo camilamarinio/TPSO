@@ -1,0 +1,7 @@
+#!/bin/bash
+FILE=consola
+CONFIG=consolaAm.config
+MEMORIA_1=geck-pruebas/MEMORIA_1
+if test -f "./$FILE"; then
+    ./$FILE $CONFIG $MEMORIA_1
+fi

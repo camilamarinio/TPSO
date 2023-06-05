@@ -1,0 +1,8 @@
+#!/bin/bash
+FILE=consola
+CONFIG=consola.config
+PSEUDOCODIGO=pseudocodigo/pseudocodigo
+make $FILE
+if test -f "./$FILE"; then
+    valgrind --leak-check=full ./$FILE $CONFIG $PSEUDOCODIGO
+fi

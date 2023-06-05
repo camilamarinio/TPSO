@@ -1,0 +1,7 @@
+#!/bin/bash
+FILE=consola
+CONFIG=consola.config
+PLANI_FULL_2=geck-pruebas/PLANI_FULL_2
+if test -f "./$FILE"; then
+    ./$FILE $CONFIG $PLANI_FULL_2
+fi

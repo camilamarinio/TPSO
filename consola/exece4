@@ -1,0 +1,7 @@
+#!/bin/bash
+FILE=consola
+CONFIG=consolaCyDe.config
+ESTABILIDAD_4=geck-pruebas/ESTABILIDAD_4
+if test -f "./$FILE"; then
+    ./$FILE $CONFIG $ESTABILIDAD_4
+fi

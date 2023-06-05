@@ -1,0 +1,7 @@
+#!/bin/bash
+FILE=consola
+CONFIG=consola.config
+BASE_3=geck-pruebas/BASE_3
+if test -f "./$FILE"; then
+    ./$FILE $CONFIG $BASE_3
+fi

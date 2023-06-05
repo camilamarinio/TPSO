@@ -1,0 +1,8 @@
+#!/bin/bash
+FILE=consola
+CONFIG=consolaAt.config
+TLB_1=geck-pruebas/TLB_1
+make $FILE
+if test -f "./$FILE"; then
+    ./$FILE $CONFIG $TLB_1
+fi

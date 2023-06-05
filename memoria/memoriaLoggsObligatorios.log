@@ -1,0 +1,564 @@
+[INFO] 18:13:00:401 MEMORIA/(2509:2510): PID: 1 - Segmento: 0 - TAMAÑO: 2 paginas
+[INFO] 18:13:00:401 MEMORIA/(2509:2510): PID: 1 - Segmento: 1 - TAMAÑO: 2 paginas
+[INFO] 18:13:00:401 MEMORIA/(2509:2510): PID: 1 - Segmento: 2 - TAMAÑO: 2 paginas
+[INFO] 18:13:00:401 MEMORIA/(2509:2510): PID: 1 - Segmento: 3 - TAMAÑO: 2 paginas
+[DEBUG] 18:13:01:465 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 0
+[DEBUG] 18:13:01:465 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 1 - Acción: ESCRIBIR - Dirección física: 0  0
+[INFO] 18:13:06:465 MEMORIA/(2509:2510): SWAP IN -  PID: 1 - Marco: 0 - Page In: 0|0
+[DEBUG] 18:13:06:470 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 1
+[DEBUG] 18:13:06:471 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 1 - Acción: ESCRIBIR - Dirección física: 1  0
+[INFO] 18:13:11:472 MEMORIA/(2509:2510): SWAP IN -  PID: 1 - Marco: 1 - Page In: 1|0
+[INFO] 18:13:16:481 MEMORIA/(2509:2510): SWAP OUT -  PID: 1 - Marco: 0 - Page Out: 0|0
+[INFO] 18:13:21:485 MEMORIA/(2509:2510): SWAP IN -  PID: 1 - Marco: 0 - Page In: 2|0
+[INFO] 18:13:21:486 MEMORIA/(2509:2510): REEMPLAZO - PID: 1 - Marco: 0 - Page Out: 0 | 0 - Page In: 2 | 0
+[DEBUG] 18:13:21:494 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 0
+[DEBUG] 18:13:21:495 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 1 - Acción: ESCRIBIR - Dirección física: 0  0
+[INFO] 18:13:27:514 MEMORIA/(2509:2510): SWAP OUT -  PID: 1 - Marco: 1 - Page Out: 1|0
+[INFO] 18:13:32:516 MEMORIA/(2509:2510): SWAP IN -  PID: 1 - Marco: 1 - Page In: 3|0
+[INFO] 18:13:32:516 MEMORIA/(2509:2510): REEMPLAZO - PID: 1 - Marco: 1 - Page Out: 1 | 0 - Page In: 3 | 0
+[DEBUG] 18:13:32:523 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 1
+[DEBUG] 18:13:32:524 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 1 - Acción: ESCRIBIR - Dirección física: 1  0
+[INFO] 18:13:38:533 MEMORIA/(2509:2510): SWAP OUT -  PID: 1 - Marco: 0 - Page Out: 2|0
+[INFO] 18:13:43:535 MEMORIA/(2509:2510): SWAP IN -  PID: 1 - Marco: 0 - Page In: 0|0
+[INFO] 18:13:43:535 MEMORIA/(2509:2510): REEMPLAZO - PID: 1 - Marco: 0 - Page Out: 2 | 0 - Page In: 0 | 0
+[DEBUG] 18:13:43:538 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 0
+[DEBUG] 18:13:43:538 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 1 - Acción: LEER - Dirección física: 0  0
+[DEBUG] 18:13:44:548 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 1
+[DEBUG] 18:13:44:549 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 1 - Acción: LEER - Dirección física: 1  0
+[INFO] 18:13:50:562 MEMORIA/(2509:2510): SWAP OUT -  PID: 1 - Marco: 1 - Page Out: 3|0
+[INFO] 18:13:55:583 MEMORIA/(2509:2510): SWAP IN -  PID: 1 - Marco: 1 - Page In: 1|0
+[INFO] 18:13:55:584 MEMORIA/(2509:2510): REEMPLAZO - PID: 1 - Marco: 1 - Page Out: 3 | 0 - Page In: 1 | 0
+[DEBUG] 18:13:55:591 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 1
+[DEBUG] 18:13:55:592 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 1 - Acción: LEER - Dirección física: 1  0
+[INFO] 18:14:00:383 MEMORIA/(2509:4232): PID: 1 - Segmento: 0 - TAMAÑO: 2 paginas
+[INFO] 18:14:00:384 MEMORIA/(2509:4232): PID: 1 - Segmento: 1 - TAMAÑO: 2 paginas
+[INFO] 18:14:00:384 MEMORIA/(2509:4232): PID: 1 - Segmento: 2 - TAMAÑO: 2 paginas
+[INFO] 18:14:00:385 MEMORIA/(2509:4232): PID: 1 - Segmento: 3 - TAMAÑO: 2 paginas
+[INFO] 18:14:00:388 MEMORIA/(2509:2510): PID: 2 - Segmento: 0 - TAMAÑO: 2 paginas
+[INFO] 18:14:00:388 MEMORIA/(2509:2510): PID: 2 - Segmento: 1 - TAMAÑO: 2 paginas
+[INFO] 18:14:00:388 MEMORIA/(2509:2510): PID: 2 - Segmento: 2 - TAMAÑO: 2 paginas
+[INFO] 18:14:00:388 MEMORIA/(2509:2510): PID: 2 - Segmento: 3 - TAMAÑO: 2 paginas
+[DEBUG] 18:14:01:501 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:14:01:502 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 2 - Acción: ESCRIBIR - Dirección física: 2  0
+[DEBUG] 18:14:02:510 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:14:02:512 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 2 - Acción: ESCRIBIR - Dirección física: 2  4
+[DEBUG] 18:14:03:515 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:14:03:515 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 2 - Acción: ESCRIBIR - Dirección física: 2  8
+[DEBUG] 18:14:04:519 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:14:04:520 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 2 - Acción: ESCRIBIR - Dirección física: 2  16
+[DEBUG] 18:14:05:528 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:14:05:532 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 2 - Acción: LEER - Dirección física: 2  0
+[INFO] 18:14:06:502 MEMORIA/(2509:2510): SWAP IN -  PID: 2 - Marco: 2 - Page In: 0|0
+[DEBUG] 18:14:06:545 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:14:06:546 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 2 - Acción: LEER - Dirección física: 2  4
+[DEBUG] 18:14:07:560 MEMORIA/(2509:2511): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:14:07:561 MEMORIA/(2509:2511): Acceso a espacio de usuario: “PID: 2 - Acción: LEER - Dirección física: 2  8
+[INFO] 18:14:12:353 MEMORIA/(2509:4427): PID: 2 - Segmento: 0 - TAMAÑO: 2 paginas
+[INFO] 18:14:12:358 MEMORIA/(2509:4427): PID: 2 - Segmento: 1 - TAMAÑO: 2 paginas
+[INFO] 18:14:12:358 MEMORIA/(2509:4427): PID: 2 - Segmento: 2 - TAMAÑO: 2 paginas
+[INFO] 18:14:12:358 MEMORIA/(2509:4427): PID: 2 - Segmento: 3 - TAMAÑO: 2 paginas
+[INFO] 18:14:12:361 MEMORIA/(2509:2510): PID: 3 - Segmento: 0 - TAMAÑO: 2 paginas
+[INFO] 18:14:13:380 MEMORIA/(2509:4462): PID: 3 - Segmento: 0 - TAMAÑO: 2 paginas
+[INFO] 18:18:19:804 MEMORIA/(5926:5929): PID: 1 - Segmento: 0 - TAMAÑO: 2 paginas
+[INFO] 18:18:19:804 MEMORIA/(5926:5929): PID: 1 - Segmento: 1 - TAMAÑO: 2 paginas
+[INFO] 18:18:19:804 MEMORIA/(5926:5929): PID: 1 - Segmento: 2 - TAMAÑO: 2 paginas
+[INFO] 18:18:19:804 MEMORIA/(5926:5929): PID: 1 - Segmento: 3 - TAMAÑO: 2 paginas
+[INFO] 18:18:25:876 MEMORIA/(5926:5929): SWAP IN -  PID: 1 - Marco: 0 - Page In: 0|0
+[DEBUG] 18:18:25:880 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 0
+[DEBUG] 18:18:25:880 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 1 - Acción: ESCRIBIR - Dirección física: 0  0
+[INFO] 18:18:31:892 MEMORIA/(5926:5929): SWAP IN -  PID: 1 - Marco: 1 - Page In: 1|0
+[DEBUG] 18:18:31:896 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 1
+[DEBUG] 18:18:31:897 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 1 - Acción: ESCRIBIR - Dirección física: 1  0
+[INFO] 18:18:37:925 MEMORIA/(5926:5929): SWAP OUT -  PID: 1 - Marco: 0 - Page Out: 0|0
+[INFO] 18:18:42:927 MEMORIA/(5926:5929): SWAP IN -  PID: 1 - Marco: 0 - Page In: 2|0
+[INFO] 18:18:42:927 MEMORIA/(5926:5929): REEMPLAZO - PID: 1 - Marco: 0 - Page Out: 0 | 0 - Page In: 2 | 0
+[DEBUG] 18:18:42:931 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 0
+[DEBUG] 18:18:42:931 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 1 - Acción: ESCRIBIR - Dirección física: 0  0
+[INFO] 18:18:48:949 MEMORIA/(5926:5929): SWAP OUT -  PID: 1 - Marco: 1 - Page Out: 1|0
+[INFO] 18:18:53:952 MEMORIA/(5926:5929): SWAP IN -  PID: 1 - Marco: 1 - Page In: 3|0
+[INFO] 18:18:53:952 MEMORIA/(5926:5929): REEMPLAZO - PID: 1 - Marco: 1 - Page Out: 1 | 0 - Page In: 3 | 0
+[DEBUG] 18:18:53:956 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 1
+[DEBUG] 18:18:53:958 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 1 - Acción: ESCRIBIR - Dirección física: 1  0
+[INFO] 18:18:59:965 MEMORIA/(5926:5929): SWAP OUT -  PID: 1 - Marco: 0 - Page Out: 2|0
+[INFO] 18:19:04:966 MEMORIA/(5926:5929): SWAP IN -  PID: 1 - Marco: 0 - Page In: 0|0
+[INFO] 18:19:04:966 MEMORIA/(5926:5929): REEMPLAZO - PID: 1 - Marco: 0 - Page Out: 2 | 0 - Page In: 0 | 0
+[DEBUG] 18:19:04:969 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 0
+[DEBUG] 18:19:04:970 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 1 - Acción: LEER - Dirección física: 0  0
+[DEBUG] 18:19:05:976 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 1
+[DEBUG] 18:19:05:979 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 1 - Acción: LEER - Dirección física: 1  0
+[INFO] 18:19:11:995 MEMORIA/(5926:5929): SWAP OUT -  PID: 1 - Marco: 1 - Page Out: 3|0
+[INFO] 18:19:16:996 MEMORIA/(5926:5929): SWAP IN -  PID: 1 - Marco: 1 - Page In: 1|0
+[INFO] 18:19:16:997 MEMORIA/(5926:5929): REEMPLAZO - PID: 1 - Marco: 1 - Page Out: 3 | 0 - Page In: 1 | 0
+[DEBUG] 18:19:17:002 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 1
+[DEBUG] 18:19:17:005 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 1 - Acción: LEER - Dirección física: 1  0
+[INFO] 18:19:21:793 MEMORIA/(5926:7100): PID: 1 - Segmento: 0 - TAMAÑO: 2 paginas
+[INFO] 18:19:21:795 MEMORIA/(5926:7100): PID: 1 - Segmento: 1 - TAMAÑO: 2 paginas
+[INFO] 18:19:21:796 MEMORIA/(5926:7100): PID: 1 - Segmento: 2 - TAMAÑO: 2 paginas
+[INFO] 18:19:21:796 MEMORIA/(5926:7100): PID: 1 - Segmento: 3 - TAMAÑO: 2 paginas
+[INFO] 18:19:21:799 MEMORIA/(5926:5929): PID: 2 - Segmento: 0 - TAMAÑO: 2 paginas
+[INFO] 18:19:21:799 MEMORIA/(5926:5929): PID: 2 - Segmento: 1 - TAMAÑO: 2 paginas
+[INFO] 18:19:21:800 MEMORIA/(5926:5929): PID: 2 - Segmento: 2 - TAMAÑO: 2 paginas
+[INFO] 18:19:21:800 MEMORIA/(5926:5929): PID: 2 - Segmento: 3 - TAMAÑO: 2 paginas
+[INFO] 18:19:27:893 MEMORIA/(5926:5929): SWAP IN -  PID: 2 - Marco: 2 - Page In: 0|0
+[DEBUG] 18:19:27:907 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:19:27:909 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 2 - Acción: ESCRIBIR - Dirección física: 2  0
+[DEBUG] 18:19:28:917 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:19:28:922 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 2 - Acción: ESCRIBIR - Dirección física: 2  4
+[DEBUG] 18:19:29:927 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:19:29:931 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 2 - Acción: ESCRIBIR - Dirección física: 2  8
+[DEBUG] 18:19:30:936 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:19:30:938 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 2 - Acción: ESCRIBIR - Dirección física: 2  16
+[DEBUG] 18:19:31:945 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:19:31:946 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 2 - Acción: LEER - Dirección física: 2  0
+[DEBUG] 18:19:32:951 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:19:32:952 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 2 - Acción: LEER - Dirección física: 2  4
+[DEBUG] 18:19:33:957 MEMORIA/(5926:5930): Acceso a Tabla de Páginas: “PID: 2 - Página: 0 - Marco: 2
+[DEBUG] 18:19:33:958 MEMORIA/(5926:5930): Acceso a espacio de usuario: “PID: 2 - Acción: LEER - Dirección física: 2  8
+[INFO] 18:19:38:761 MEMORIA/(5926:7340): PID: 2 - Segmento: 0 - TAMAÑO: 2 paginas
+[INFO] 18:19:38:765 MEMORIA/(5926:7340): PID: 2 - Segmento: 1 - TAMAÑO: 2 paginas
+[INFO] 18:19:38:765 MEMORIA/(5926:7340): PID: 2 - Segmento: 2 - TAMAÑO: 2 paginas
+[INFO] 18:19:38:765 MEMORIA/(5926:7340): PID: 2 - Segmento: 3 - TAMAÑO: 2 paginas
+[INFO] 18:19:38:768 MEMORIA/(5926:5929): PID: 3 - Segmento: 0 - TAMAÑO: 2 paginas
+[INFO] 18:19:39:796 MEMORIA/(5926:7368): PID: 3 - Segmento: 0 - TAMAÑO: 2 paginas
+[INFO] 01:41:15:367 MEMORIA/(11491:11492): Creación de Tabla de Páginas: PID: 1 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:41:15:400 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:41:15:565 MEMORIA/(11491:11492): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 0 - Page In: 0|0
+[INFO] 01:41:15:572 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: 0
+[INFO] 01:41:15:574 MEMORIA/(11491:11493): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 0  0
+[INFO] 01:41:15:834 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 1 - Página: 2 - Marco: PAGE FAULT
+[INFO] 01:41:15:950 MEMORIA/(11491:11492): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 1 - Page In: 0|2
+[INFO] 01:41:15:956 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 1 - Página: 2 - Marco: 1
+[INFO] 01:41:15:960 MEMORIA/(11491:11493): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 1  0
+[INFO] 01:41:15:992 MEMORIA/(11491:11492): Creación de Tabla de Páginas: PID: 2 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:41:16:220 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 1 - Página: 4 - Marco: PAGE FAULT
+[INFO] 01:41:16:257 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:41:16:379 MEMORIA/(11491:11492): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 2 - Page In: 0|4
+[INFO] 01:41:16:383 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:41:16:485 MEMORIA/(11491:11492): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 3 - Page In: 0|0
+[INFO] 01:41:16:490 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: 3
+[INFO] 01:41:16:491 MEMORIA/(11491:11493): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 3  0
+[INFO] 01:41:16:494 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 2 - Página: 2 - Marco: PAGE FAULT
+[INFO] 01:41:16:592 MEMORIA/(11491:11492): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 4 - Page In: 0|0
+[INFO] 01:41:16:602 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 2 - Página: 2 - Marco: PAGE FAULT
+[INFO] 01:41:16:703 MEMORIA/(11491:11492): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 5 - Page In: 0|2
+[INFO] 01:41:16:710 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 2 - Página: 2 - Marco: 5
+[INFO] 01:41:16:712 MEMORIA/(11491:11493): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 5  0
+[INFO] 01:41:16:715 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 2 - Página: 4 - Marco: PAGE FAULT
+[INFO] 01:41:16:812 MEMORIA/(11491:11492): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 6 - Page In: 0|2
+[INFO] 01:41:16:820 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 2 - Página: 4 - Marco: PAGE FAULT
+[INFO] 01:41:16:924 MEMORIA/(11491:11492): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 7 - Page In: 0|4
+[INFO] 01:41:16:929 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 2 - Página: 4 - Marco: 7
+[INFO] 01:41:16:933 MEMORIA/(11491:11493): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 7  0
+[INFO] 01:41:16:944 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 2 - Página: 6 - Marco: PAGE FAULT
+[INFO] 01:41:17:032 MEMORIA/(11491:11492): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 8 - Page In: 0|4
+[INFO] 01:41:17:037 MEMORIA/(11491:11492): Creación de Tabla de Páginas: PID: 3 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:41:17:045 MEMORIA/(11491:11493): Acceso a Tabla de Páginas: PID: 2 - Página: 6 - Marco: PAGE FAULT
+[INFO] 01:41:17:173 MEMORIA/(11491:11492): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 9 - Page In: 0|6
+[INFO] 01:42:04:265 MEMORIA/(12528:12529): Creación de Tabla de Páginas: PID: 1 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:42:04:298 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:42:04:469 MEMORIA/(12528:12529): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 0 - Page In: 0|0
+[INFO] 01:42:04:479 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: 0
+[INFO] 01:42:04:481 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 0  0
+[INFO] 01:42:04:742 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 2 - Marco: PAGE FAULT
+[INFO] 01:42:04:865 MEMORIA/(12528:12529): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 1 - Page In: 0|2
+[INFO] 01:42:04:870 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 2 - Marco: 1
+[INFO] 01:42:04:871 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 1  0
+[INFO] 01:42:04:873 MEMORIA/(12528:12529): Creación de Tabla de Páginas: PID: 2 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:42:05:134 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 4 - Marco: PAGE FAULT
+[INFO] 01:42:05:173 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:42:05:292 MEMORIA/(12528:12529): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 2 - Page In: 0|4
+[INFO] 01:42:05:297 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:42:05:399 MEMORIA/(12528:12529): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 3 - Page In: 0|0
+[INFO] 01:42:05:407 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: 3
+[INFO] 01:42:05:410 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 3  0
+[INFO] 01:42:05:419 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 2 - Página: 2 - Marco: PAGE FAULT
+[INFO] 01:42:05:513 MEMORIA/(12528:12529): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 4 - Page In: 0|0
+[INFO] 01:42:05:528 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 2 - Página: 2 - Marco: PAGE FAULT
+[INFO] 01:42:05:637 MEMORIA/(12528:12529): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 5 - Page In: 0|2
+[INFO] 01:42:05:642 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 2 - Página: 2 - Marco: 5
+[INFO] 01:42:05:644 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 5  0
+[INFO] 01:42:05:745 MEMORIA/(12528:12529): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 6 - Page In: 0|2
+[INFO] 01:42:05:777 MEMORIA/(12528:12529): Creación de Tabla de Páginas: PID: 3 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:42:05:903 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 2 - Página: 4 - Marco: PAGE FAULT
+[INFO] 01:42:05:925 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 4 - Marco: 2
+[INFO] 01:42:05:939 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 2  0
+[INFO] 01:42:06:068 MEMORIA/(12528:12529): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 7 - Page In: 0|4
+[INFO] 01:42:06:199 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 6 - Marco: PAGE FAULT
+[INFO] 01:42:06:285 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 2 - Página: 4 - Marco: 7
+[INFO] 01:42:06:288 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 7  0
+[INFO] 01:42:06:362 MEMORIA/(12528:12529): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 8 - Page In: 0|6
+[INFO] 01:42:06:544 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 2 - Página: 6 - Marco: PAGE FAULT
+[INFO] 01:42:06:626 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 6 - Marco: 8
+[INFO] 01:42:06:631 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 8  0
+[INFO] 01:42:06:698 MEMORIA/(12528:12529): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 9 - Page In: 0|6
+[INFO] 01:42:06:946 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: 0
+[INFO] 01:42:06:949 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 0  4
+[INFO] 01:42:07:211 MEMORIA/(12528:12529): Creación de Tabla de Páginas: PID: 4 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:42:07:248 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 2 - Marco: 1
+[INFO] 01:42:07:253 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 1  4
+[INFO] 01:42:07:518 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 4 - Marco: 2
+[INFO] 01:42:07:530 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 2  4
+[INFO] 01:42:07:787 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 6 - Marco: 8
+[INFO] 01:42:07:791 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 8  4
+[INFO] 01:42:08:090 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 2 - Página: 6 - Marco: 9
+[INFO] 01:42:08:098 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 9  0
+[INFO] 01:42:08:355 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: 4
+[INFO] 01:42:08:359 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 2 - Acción: LEER - Dirección física: 4  0
+[INFO] 01:42:08:622 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 2 - Página: 2 - Marco: 6
+[INFO] 01:42:08:625 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 2 - Acción: LEER - Dirección física: 6  0
+[INFO] 01:42:09:749 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: 0
+[INFO] 01:42:09:750 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 0  0
+[INFO] 01:42:10:007 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 2 - Marco: 1
+[INFO] 01:42:10:015 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 1  0
+[INFO] 01:42:10:276 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 4 - Marco: 2
+[INFO] 01:42:10:278 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 2  0
+[INFO] 01:42:10:531 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 1 - Página: 6 - Marco: 8
+[INFO] 01:42:10:532 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 8  0
+[INFO] 01:42:10:785 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: LEER - Dirección física: 0  0
+[INFO] 01:42:11:047 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: LEER - Dirección física: 8  0
+[INFO] 01:42:11:307 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 1 - Acción: LEER - Dirección física: 1  0
+[INFO] 01:42:11:723 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 3 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:42:11:932 MEMORIA/(12528:12529): Lectura de Página de SWAP: SWAP IN -  PID: 3 - Marco: 10 - Page In: 0|0
+[INFO] 01:42:11:938 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 3 - Página: 0 - Marco: 10
+[INFO] 01:42:11:944 MEMORIA/(12528:12530): Acceso a espacio de usuario: PID: 3 - Acción: ESCRIBIR - Dirección física: 10  0
+[INFO] 01:42:12:278 MEMORIA/(12528:12530): Acceso a Tabla de Páginas: PID: 4 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:42:12:331 MEMORIA/(12528:12529): Creación de Tabla de Páginas: PID: 5 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:42:12:346 MEMORIA/(12528:13183): Destrucción de Tabla de Páginas: PID 1 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:48:22:185 MEMORIA/(14958:14959): Creación de Tabla de Páginas: PID: 1 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:48:40:183 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:48:46:456 MEMORIA/(14958:14959): Creación de Tabla de Páginas: PID: 2 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:48:57:220 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 0 - Page In: 0|0
+[INFO] 01:49:01:454 MEMORIA/(14958:14959): Creación de Tabla de Páginas: PID: 3 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:49:08:779 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:49:17:920 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 1 - Page In: 0|0
+[INFO] 01:49:30:276 MEMORIA/(14958:14959): Creación de Tabla de Páginas: PID: 4 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:49:35:567 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: 0
+[INFO] 01:49:35:573 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 0  0
+[INFO] 01:49:35:829 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 2 - Marco: PAGE FAULT
+[INFO] 01:49:49:233 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 2 - Page In: 0|2
+[INFO] 01:50:23:810 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: 1
+[INFO] 01:50:23:814 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 1  0
+[INFO] 01:50:24:075 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 2 - Marco: PAGE FAULT
+[INFO] 01:50:31:937 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 3 - Page In: 0|2
+[INFO] 01:50:48:120 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 2 - Marco: 2
+[INFO] 01:50:48:134 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 2  0
+[INFO] 01:50:48:393 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 4 - Marco: PAGE FAULT
+[INFO] 01:50:57:217 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 4 - Page In: 0|4
+[INFO] 01:51:14:903 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 2 - Marco: 3
+[INFO] 01:51:14:908 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 3  0
+[INFO] 01:51:15:167 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 4 - Marco: PAGE FAULT
+[INFO] 01:51:22:153 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 5 - Page In: 0|4
+[INFO] 01:51:36:685 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 4 - Marco: 4
+[INFO] 01:51:36:705 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 4  0
+[INFO] 01:51:36:969 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 6 - Marco: PAGE FAULT
+[INFO] 01:51:43:445 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 6 - Page In: 0|6
+[INFO] 01:51:58:735 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 4 - Marco: 5
+[INFO] 01:51:58:747 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 5  0
+[INFO] 01:51:59:014 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 6 - Marco: PAGE FAULT
+[INFO] 01:52:10:098 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 7 - Page In: 0|6
+[INFO] 01:52:36:529 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 6 - Marco: 6
+[INFO] 01:52:36:533 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 6  0
+[INFO] 01:52:36:845 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: 0
+[INFO] 01:52:36:848 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 0  4
+[INFO] 01:52:37:106 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 2 - Marco: 2
+[INFO] 01:52:37:111 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 2  4
+[INFO] 01:52:37:368 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 4 - Marco: 4
+[INFO] 01:52:37:371 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 4  4
+[INFO] 01:52:37:625 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 6  4
+[INFO] 01:52:52:168 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 6 - Marco: 7
+[INFO] 01:52:52:179 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 7  0
+[INFO] 01:52:52:445 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: 1
+[INFO] 01:52:52:449 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 2 - Acción: LEER - Dirección física: 1  0
+[INFO] 01:52:52:708 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 2 - Marco: 3
+[INFO] 01:52:52:712 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 2 - Acción: LEER - Dirección física: 3  0
+[INFO] 01:53:26:486 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: 0
+[INFO] 01:53:26:492 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 0  0
+[INFO] 01:53:26:750 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 2 - Marco: 2
+[INFO] 01:53:26:754 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 2  0
+[INFO] 01:53:27:011 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 4 - Marco: 4
+[INFO] 01:53:27:017 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 4  0
+[INFO] 01:53:27:277 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 1 - Página: 6 - Marco: 6
+[INFO] 01:53:27:280 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 6  0
+[INFO] 01:53:27:545 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: LEER - Dirección física: 0  0
+[INFO] 01:53:27:807 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: LEER - Dirección física: 6  0
+[INFO] 01:53:28:070 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 1 - Acción: LEER - Dirección física: 2  0
+[INFO] 01:53:30:809 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 3 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:53:37:623 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 3 - Marco: 8 - Page In: 0|0
+[INFO] 01:53:44:458 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 4 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:53:45:822 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 3 - Página: 0 - Marco: 8
+[INFO] 01:53:45:826 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 3 - Acción: ESCRIBIR - Dirección física: 8  0
+[INFO] 01:53:45:924 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 4 - Marco: 9 - Page In: 0|0
+[INFO] 01:53:47:043 MEMORIA/(14958:18296): Destrucción de Tabla de Páginas: PID 1 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:53:47:058 MEMORIA/(14958:14959): Creación de Tabla de Páginas: PID: 5 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:53:51:254 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 4 - Página: 0 - Marco: 9
+[INFO] 01:53:51:256 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  0
+[INFO] 01:53:52:524 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 3 - Página: 0 - Marco: 8
+[INFO] 01:53:52:528 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 3 - Acción: ESCRIBIR - Dirección física: 8  4
+[INFO] 01:53:59:029 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  4
+[INFO] 01:54:05:172 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 3 - Acción: ESCRIBIR - Dirección física: 8  8
+[INFO] 01:54:08:566 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 5 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:54:10:295 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  8
+[INFO] 01:54:10:405 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 5 - Marco: 10 - Page In: 0|0
+[INFO] 01:54:13:926 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 3 - Acción: ESCRIBIR - Dirección física: 8  16
+[INFO] 01:54:14:241 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 5 - Página: 0 - Marco: 10
+[INFO] 01:54:14:245 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  0
+[INFO] 01:54:14:590 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  16
+[INFO] 01:54:29:160 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 3 - Acción: ESCRIBIR - Dirección física: 8  20
+[INFO] 01:54:29:541 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  20
+[INFO] 01:54:29:849 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 3 - Acción: ESCRIBIR - Dirección física: 8  32
+[INFO] 01:54:30:245 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  32
+[INFO] 01:54:30:729 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  4
+[INFO] 01:54:31:758 MEMORIA/(14958:18757): Destrucción de Tabla de Páginas: PID 3 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:54:31:762 MEMORIA/(14958:14959): Creación de Tabla de Páginas: PID: 6 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:54:31:790 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  0
+[INFO] 01:54:32:085 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  4
+[INFO] 01:54:32:374 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  8
+[INFO] 01:54:32:661 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  12
+[INFO] 01:54:32:953 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  16
+[INFO] 01:54:33:246 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  20
+[INFO] 01:54:33:531 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  24
+[INFO] 01:54:33:818 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  28
+[INFO] 01:54:34:103 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  32
+[INFO] 01:54:34:390 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  36
+[INFO] 01:54:34:679 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  40
+[INFO] 01:54:34:966 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  44
+[INFO] 01:54:35:260 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  48
+[INFO] 01:54:35:549 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  52
+[INFO] 01:54:35:833 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  56
+[INFO] 01:54:36:125 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 9  60
+[INFO] 01:54:36:413 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 4 - Página: 1 - Marco: PAGE FAULT
+[INFO] 01:54:36:470 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  4
+[INFO] 01:54:36:631 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 4 - Marco: 11 - Page In: 0|1
+[INFO] 01:54:36:729 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  8
+[INFO] 01:54:37:119 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 8 - Marco: PAGE FAULT
+[INFO] 01:54:37:245 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 4 - Página: 1 - Marco: 11
+[INFO] 01:54:37:251 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 11  0
+[INFO] 01:54:37:279 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 12 - Page In: 0|8
+[INFO] 01:54:37:537 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 11  4
+[INFO] 01:54:37:825 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 11  8
+[INFO] 01:54:38:105 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 11  12
+[INFO] 01:54:38:401 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 11  16
+[INFO] 01:54:38:695 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 11  20
+[INFO] 01:54:38:984 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 11  24
+[INFO] 01:54:39:269 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 11  28
+[INFO] 01:54:39:539 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 8 - Marco: 12
+[INFO] 01:54:39:548 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 12  0
+[INFO] 01:54:39:807 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 9 - Marco: PAGE FAULT
+[INFO] 01:54:39:872 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  8
+[INFO] 01:54:39:979 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 13 - Page In: 0|9
+[INFO] 01:54:40:130 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  12
+[INFO] 01:54:40:525 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 9 - Marco: 13
+[INFO] 01:54:40:530 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 13  0
+[INFO] 01:54:40:789 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: 1
+[INFO] 01:54:40:794 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 1  4
+[INFO] 01:54:41:051 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 2 - Página: 2 - Marco: 3
+[INFO] 01:54:41:056 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 3  4
+[INFO] 01:54:41:369 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 5 - Página: 0 - Marco: 10
+[INFO] 01:54:41:373 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  12
+[INFO] 01:54:41:639 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  16
+[INFO] 01:54:41:939 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 6 - Página: 0 - Marco: PAGE FAULT
+[INFO] 01:54:42:125 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 6 - Marco: 14 - Page In: 0|0
+[INFO] 01:54:42:154 MEMORIA/(14958:18999): Destrucción de Tabla de Páginas: PID 2 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:54:42:174 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 6 - Página: 0 - Marco: 14
+[INFO] 01:54:42:175 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:42:433 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:42:780 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 5 - Página: 0 - Marco: 10
+[INFO] 01:54:42:782 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  16
+[INFO] 01:54:43:042 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  20
+[INFO] 01:54:43:392 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:43:652 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:44:015 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  20
+[INFO] 01:54:44:277 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  24
+[INFO] 01:54:44:621 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:44:879 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:45:261 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  24
+[INFO] 01:54:45:521 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  28
+[INFO] 01:54:45:826 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:46:083 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:47:088 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 4 - Página: 2 - Marco: PAGE FAULT
+[INFO] 01:54:47:145 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  28
+[INFO] 01:54:47:260 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 4 - Marco: 15 - Page In: 0|2
+[INFO] 01:54:47:404 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  32
+[INFO] 01:54:47:705 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:47:968 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:48:262 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 4 - Página: 2 - Marco: 15
+[INFO] 01:54:48:265 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 15  0
+[INFO] 01:54:48:539 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  32
+[INFO] 01:54:48:798 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  36
+[INFO] 01:54:49:094 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:49:364 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:49:693 MEMORIA/(14958:19158): Destrucción de Tabla de Páginas: PID 4 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:54:49:699 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 5 - Página: 0 - Marco: 10
+[INFO] 01:54:49:700 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  36
+[INFO] 01:54:49:958 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  40
+[INFO] 01:54:50:259 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 6 - Página: 0 - Marco: 14
+[INFO] 01:54:50:261 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:50:528 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:50:832 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  40
+[INFO] 01:54:51:092 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  44
+[INFO] 01:54:51:399 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:51:669 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:51:974 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  44
+[INFO] 01:54:52:237 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  48
+[INFO] 01:54:52:537 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:52:794 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:53:090 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  48
+[INFO] 01:54:53:353 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  52
+[INFO] 01:54:53:664 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:53:921 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:54:280 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  52
+[INFO] 01:54:54:542 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  56
+[INFO] 01:54:54:845 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:55:106 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:55:407 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  56
+[INFO] 01:54:55:673 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 10  60
+[INFO] 01:54:55:974 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:56:237 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:56:570 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 10  60
+[INFO] 01:54:56:827 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 5 - Página: 1 - Marco: PAGE FAULT
+[INFO] 01:54:57:027 MEMORIA/(14958:14959): Lectura de Página de SWAP: SWAP IN -  PID: 5 - Marco: 16 - Page In: 0|1
+[INFO] 01:54:57:038 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 5 - Página: 1 - Marco: 16
+[INFO] 01:54:57:042 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  0
+[INFO] 01:54:57:357 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:57:615 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:57:922 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 16  0
+[INFO] 01:54:58:183 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  4
+[INFO] 01:54:58:486 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:58:748 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:54:59:053 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 16  4
+[INFO] 01:54:59:315 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  8
+[INFO] 01:54:59:631 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:54:59:891 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:55:00:181 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 16  8
+[INFO] 01:55:00:440 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  12
+[INFO] 01:55:00:739 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:55:01:003 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:55:01:320 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 16  12
+[INFO] 01:55:01:582 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  16
+[INFO] 01:55:01:896 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:55:02:156 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:55:02:465 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 16  16
+[INFO] 01:55:02:731 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  20
+[INFO] 01:55:03:037 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:55:03:296 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:55:03:617 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 16  20
+[INFO] 01:55:03:882 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  24
+[INFO] 01:55:04:186 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:55:04:451 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:55:04:756 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 16  24
+[INFO] 01:55:05:020 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  28
+[INFO] 01:55:05:317 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:55:05:591 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:55:05:899 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 16  28
+[INFO] 01:55:06:156 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  32
+[INFO] 01:55:06:503 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:55:06:773 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:55:07:080 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 16  32
+[INFO] 01:55:07:342 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  36
+[INFO] 01:55:07:640 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:55:07:906 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:55:08:231 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 16  36
+[INFO] 01:55:08:500 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  40
+[INFO] 01:55:08:818 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:55:09:079 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:55:09:390 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 16  40
+[INFO] 01:55:09:654 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  44
+[INFO] 01:55:09:968 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:55:10:222 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:55:10:522 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: LEER - Dirección física: 16  44
+[INFO] 01:55:10:781 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 5 - Acción: ESCRIBIR - Dirección física: 16  48
+[INFO] 01:55:11:086 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:55:11:347 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:55:11:661 MEMORIA/(14958:19553): Destrucción de Tabla de Páginas: PID 5 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 01:55:12:167 MEMORIA/(14958:14960): Acceso a Tabla de Páginas: PID: 6 - Página: 0 - Marco: 14
+[INFO] 01:55:12:172 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: ESCRIBIR - Dirección física: 14  0
+[INFO] 01:55:12:438 MEMORIA/(14958:14960): Acceso a espacio de usuario: PID: 6 - Acción: LEER - Dirección física: 14  0
+[INFO] 01:55:13:257 MEMORIA/(14958:19555): Destrucción de Tabla de Páginas: PID 6 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 04:02:08:313 MEMORIA/(3257:3258): PID: 1 - Segmento: 0 - TAMAÑO: 2 paginas
+[DEBUG] 04:02:09:399 MEMORIA/(3257:3259): Acceso a Tabla de Páginas: “PID: 1 - Página: 0 - Marco: 0
+[DEBUG] 04:02:09:400 MEMORIA/(3257:3259): Acceso a espacio de usuario: “PID: 1 - Acción: ESCRIBIR - Dirección física: 0  0
+[INFO] 04:05:00:642 MEMORIA/(4336:4337): Creación de Tabla de Páginas: PID: 1 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 04:05:00:676 MEMORIA/(4336:4338): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: PAGE FAULT
+[INFO] 04:05:00:834 MEMORIA/(4336:4337): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 0 - Page In: 0|0
+[INFO] 04:05:00:850 MEMORIA/(4336:4338): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: 0
+[INFO] 04:05:00:889 MEMORIA/(4336:4338): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 0  0
+[INFO] 04:05:01:149 MEMORIA/(4336:4338): Acceso a Tabla de Páginas: PID: 1 - Página: 2 - Marco: PAGE FAULT
+[INFO] 04:05:01:268 MEMORIA/(4336:4337): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 1 - Page In: 0|2
+[INFO] 04:05:01:275 MEMORIA/(4336:4338): Acceso a Tabla de Páginas: PID: 1 - Página: 2 - Marco: 1
+[INFO] 04:05:01:278 MEMORIA/(4336:4338): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 1  0
+[INFO] 04:05:01:533 MEMORIA/(4336:4338): Acceso a Tabla de Páginas: PID: 1 - Página: 4 - Marco: PAGE FAULT
+[INFO] 04:05:01:651 MEMORIA/(4336:4337): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 2 - Page In: 0|4
+[INFO] 04:05:01:656 MEMORIA/(4336:4338): Acceso a Tabla de Páginas: PID: 1 - Página: 4 - Marco: 2
+[INFO] 04:05:01:658 MEMORIA/(4336:4338): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 2  0
+[INFO] 04:05:01:910 MEMORIA/(4336:4338): Acceso a Tabla de Páginas: PID: 1 - Página: 6 - Marco: PAGE FAULT
+[INFO] 04:05:02:025 MEMORIA/(4336:4337): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 3 - Page In: 0|6
+[INFO] 04:05:02:028 MEMORIA/(4336:4338): Acceso a Tabla de Páginas: PID: 1 - Página: 6 - Marco: 3
+[INFO] 04:05:02:031 MEMORIA/(4336:4338): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 3  0
+[INFO] 04:05:02:082 MEMORIA/(4336:4337): Creación de Tabla de Páginas: PID: 2 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 04:05:02:366 MEMORIA/(4336:4338): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 0  4
+[INFO] 04:05:02:626 MEMORIA/(4336:4338): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 1  4
+[INFO] 04:05:02:890 MEMORIA/(4336:4338): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 2  4
+[INFO] 04:05:03:151 MEMORIA/(4336:4338): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 3  4
+[INFO] 04:05:03:482 MEMORIA/(4336:4338): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: PAGE FAULT
+[INFO] 04:05:03:678 MEMORIA/(4336:4337): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 4 - Page In: 0|0
+[INFO] 04:05:03:755 MEMORIA/(4336:4338): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: 4
+[INFO] 04:05:03:767 MEMORIA/(4336:4338): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 4  0
+[INFO] 04:05:04:033 MEMORIA/(4336:4338): Acceso a Tabla de Páginas: PID: 2 - Página: 2 - Marco: PAGE FAULT
+[INFO] 04:05:04:191 MEMORIA/(4336:4337): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 5 - Page In: 0|2
+[INFO] 04:05:04:193 MEMORIA/(4336:4337): Creación de Tabla de Páginas: PID: 3 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 23:46:51:187 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 1 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 23:46:51:188 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 1 - Segmento: 1 - TAMAÑO: 16 paginas
+[INFO] 23:46:51:189 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 1 - Segmento: 2 - TAMAÑO: 16 paginas
+[INFO] 23:46:51:189 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 1 - Segmento: 3 - TAMAÑO: 16 paginas
+[INFO] 23:46:51:233 MEMORIA/(2477:2479): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: PAGE FAULT
+[INFO] 23:46:51:395 MEMORIA/(2477:2478): Lectura de Página de SWAP: SWAP IN -  PID: 1 - Marco: 0 - Page In: 0|0
+[INFO] 23:46:51:399 MEMORIA/(2477:2479): Acceso a Tabla de Páginas: PID: 1 - Página: 0 - Marco: 0
+[INFO] 23:46:51:401 MEMORIA/(2477:2479): Acceso a espacio de usuario: PID: 1 - Acción: ESCRIBIR - Dirección física: 0  0
+[INFO] 23:46:51:672 MEMORIA/(2477:2889): Destrucción de Tabla de Páginas: PID 1 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 23:46:51:677 MEMORIA/(2477:2889): Destrucción de Tabla de Páginas: PID 1 - Segmento: 1 - TAMAÑO: 16 paginas
+[INFO] 23:46:51:679 MEMORIA/(2477:2889): Destrucción de Tabla de Páginas: PID 1 - Segmento: 2 - TAMAÑO: 16 paginas
+[INFO] 23:46:51:679 MEMORIA/(2477:2889): Destrucción de Tabla de Páginas: PID 1 - Segmento: 3 - TAMAÑO: 16 paginas
+[INFO] 23:47:47:980 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 2 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 23:47:47:981 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 2 - Segmento: 1 - TAMAÑO: 16 paginas
+[INFO] 23:47:47:981 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 2 - Segmento: 2 - TAMAÑO: 16 paginas
+[INFO] 23:47:47:981 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 2 - Segmento: 3 - TAMAÑO: 16 paginas
+[INFO] 23:47:48:014 MEMORIA/(2477:2479): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: PAGE FAULT
+[INFO] 23:47:48:172 MEMORIA/(2477:2478): Lectura de Página de SWAP: SWAP IN -  PID: 2 - Marco: 1 - Page In: 0|0
+[INFO] 23:47:48:178 MEMORIA/(2477:2479): Acceso a Tabla de Páginas: PID: 2 - Página: 0 - Marco: 1
+[INFO] 23:47:48:182 MEMORIA/(2477:2479): Acceso a espacio de usuario: PID: 2 - Acción: ESCRIBIR - Dirección física: 1  0
+[INFO] 23:47:48:465 MEMORIA/(2477:3101): Destrucción de Tabla de Páginas: PID 2 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 23:47:48:465 MEMORIA/(2477:3101): Destrucción de Tabla de Páginas: PID 2 - Segmento: 1 - TAMAÑO: 16 paginas
+[INFO] 23:47:48:471 MEMORIA/(2477:3101): Destrucción de Tabla de Páginas: PID 2 - Segmento: 2 - TAMAÑO: 16 paginas
+[INFO] 23:47:48:474 MEMORIA/(2477:3101): Destrucción de Tabla de Páginas: PID 2 - Segmento: 3 - TAMAÑO: 16 paginas
+[INFO] 23:50:44:898 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 3 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 23:50:44:898 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 3 - Segmento: 1 - TAMAÑO: 16 paginas
+[INFO] 23:50:44:898 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 3 - Segmento: 2 - TAMAÑO: 16 paginas
+[INFO] 23:50:44:898 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 3 - Segmento: 3 - TAMAÑO: 16 paginas
+[INFO] 23:50:44:930 MEMORIA/(2477:2479): Acceso a Tabla de Páginas: PID: 3 - Página: 0 - Marco: PAGE FAULT
+[INFO] 23:50:45:094 MEMORIA/(2477:2478): Lectura de Página de SWAP: SWAP IN -  PID: 3 - Marco: 2 - Page In: 0|0
+[INFO] 23:50:45:100 MEMORIA/(2477:2479): Acceso a Tabla de Páginas: PID: 3 - Página: 0 - Marco: 2
+[INFO] 23:50:45:105 MEMORIA/(2477:2479): Acceso a espacio de usuario: PID: 3 - Acción: ESCRIBIR - Dirección física: 2  0
+[INFO] 23:50:45:370 MEMORIA/(2477:3304): Destrucción de Tabla de Páginas: PID 3 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 23:50:45:371 MEMORIA/(2477:3304): Destrucción de Tabla de Páginas: PID 3 - Segmento: 1 - TAMAÑO: 16 paginas
+[INFO] 23:50:45:371 MEMORIA/(2477:3304): Destrucción de Tabla de Páginas: PID 3 - Segmento: 2 - TAMAÑO: 16 paginas
+[INFO] 23:50:45:372 MEMORIA/(2477:3304): Destrucción de Tabla de Páginas: PID 3 - Segmento: 3 - TAMAÑO: 16 paginas
+[INFO] 23:51:13:727 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 4 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 23:51:13:727 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 4 - Segmento: 1 - TAMAÑO: 16 paginas
+[INFO] 23:51:13:728 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 4 - Segmento: 2 - TAMAÑO: 16 paginas
+[INFO] 23:51:13:728 MEMORIA/(2477:2478): Creación de Tabla de Páginas: PID: 4 - Segmento: 3 - TAMAÑO: 16 paginas
+[INFO] 23:51:13:759 MEMORIA/(2477:2479): Acceso a Tabla de Páginas: PID: 4 - Página: 0 - Marco: PAGE FAULT
+[INFO] 23:51:13:919 MEMORIA/(2477:2478): Lectura de Página de SWAP: SWAP IN -  PID: 4 - Marco: 3 - Page In: 0|0
+[INFO] 23:51:13:922 MEMORIA/(2477:2479): Acceso a Tabla de Páginas: PID: 4 - Página: 0 - Marco: 3
+[INFO] 23:51:13:924 MEMORIA/(2477:2479): Acceso a espacio de usuario: PID: 4 - Acción: ESCRIBIR - Dirección física: 3  0
+[INFO] 23:51:14:273 MEMORIA/(2477:3463): Destrucción de Tabla de Páginas: PID 4 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 23:51:14:274 MEMORIA/(2477:3463): Destrucción de Tabla de Páginas: PID 4 - Segmento: 1 - TAMAÑO: 16 paginas
+[INFO] 23:51:14:274 MEMORIA/(2477:3463): Destrucción de Tabla de Páginas: PID 4 - Segmento: 2 - TAMAÑO: 16 paginas
+[INFO] 23:51:14:275 MEMORIA/(2477:3463): Destrucción de Tabla de Páginas: PID 4 - Segmento: 3 - TAMAÑO: 16 paginas
+[INFO] 23:54:29:752 MEMORIA/(4117:4118): Creación de Tabla de Páginas: PID: 1 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 23:54:29:752 MEMORIA/(4117:4118): Creación de Tabla de Páginas: PID: 1 - Segmento: 1 - TAMAÑO: 16 paginas
+[INFO] 23:54:29:752 MEMORIA/(4117:4118): Creación de Tabla de Páginas: PID: 1 - Segmento: 2 - TAMAÑO: 16 paginas
+[INFO] 23:54:29:753 MEMORIA/(4117:4118): Creación de Tabla de Páginas: PID: 1 - Segmento: 3 - TAMAÑO: 16 paginas
+[INFO] 23:56:01:266 MEMORIA/(5020:5021): Creación de Tabla de Páginas: PID: 1 - Segmento: 0 - TAMAÑO: 16 paginas
+[INFO] 23:56:01:266 MEMORIA/(5020:5021): Creación de Tabla de Páginas: PID: 1 - Segmento: 1 - TAMAÑO: 16 paginas
+[INFO] 23:56:01:269 MEMORIA/(5020:5021): Creación de Tabla de Páginas: PID: 1 - Segmento: 2 - TAMAÑO: 16 paginas
+[INFO] 23:56:01:269 MEMORIA/(5020:5021): Creación de Tabla de Páginas: PID: 1 - Segmento: 3 - TAMAÑO: 16 paginas

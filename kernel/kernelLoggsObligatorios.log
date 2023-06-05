@@ -1,0 +1,846 @@
+[DEBUG] 18:13:00:400 KERNEL/(2843:3444): Se crea el proceso: 1 en NEW
+[DEBUG] 18:13:00:402 KERNEL/(2843:2847): PID: 1 - Estado Anterior: NEW, Estado Actual: READY
+[DEBUG] 18:13:00:402 KERNEL/(2843:2848): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:13:00:803 KERNEL/(2843:3447): Se crea el proceso: 2 en NEW
+[DEBUG] 18:13:01:463 KERNEL/(2843:2848): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:13:01:650 KERNEL/(2843:3478): Se crea el proceso: 3 en NEW
+[DEBUG] 18:13:06:468 KERNEL/(2843:2848): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:13:21:487 KERNEL/(2843:2848): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:13:32:517 KERNEL/(2843:2848): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:13:43:536 KERNEL/(2843:2848): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:13:55:584 KERNEL/(2843:2848): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:13:59:601 KERNEL/(2843:2849): PID:  1 - Bloqueado por: PANTALLA '
+[DEBUG] 18:14:00:366 KERNEL/(2843:2848): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:14:00:368 KERNEL/(2843:2849): PID: 1 - Estado Anterior: EXEC , Estado Actual: EXIT
+[DEBUG] 18:14:00:388 KERNEL/(2843:2847): PID: 2 - Estado Anterior: NEW, Estado Actual: READY
+[DEBUG] 18:14:00:389 KERNEL/(2843:2848): Cola ready FIFO: '[ 2 ] '
+[DEBUG] 18:14:01:498 KERNEL/(2843:2848): Cola ready FIFO: '[ 2 ] '
+[DEBUG] 18:14:11:570 KERNEL/(2843:2849): PID:  2 - Bloqueado por: PANTALLA '
+[DEBUG] 18:14:12:335 KERNEL/(2843:2848): Cola ready FIFO: '[ 2 ] '
+[DEBUG] 18:14:12:337 KERNEL/(2843:2849): PID: 2 - Estado Anterior: EXEC , Estado Actual: EXIT
+[DEBUG] 18:14:12:362 KERNEL/(2843:2847): PID: 3 - Estado Anterior: NEW, Estado Actual: READY
+[DEBUG] 18:14:12:362 KERNEL/(2843:2848): Cola ready FIFO: '[ 3 ] '
+[DEBUG] 18:14:13:370 KERNEL/(2843:2849): PID: 3 - Estado Anterior: EXEC , Estado Actual: EXIT
+[DEBUG] 18:18:19:801 KERNEL/(6121:6251): Se crea el proceso: 1 en NEW
+[DEBUG] 18:18:19:805 KERNEL/(6121:6125): PID: 1 - Estado Anterior: NEW, Estado Actual: READY
+[DEBUG] 18:18:19:805 KERNEL/(6121:6126): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:18:20:321 KERNEL/(6121:6254): Se crea el proceso: 2 en NEW
+[DEBUG] 18:18:21:271 KERNEL/(6121:6306): Se crea el proceso: 3 en NEW
+[DEBUG] 18:18:25:877 KERNEL/(6121:6126): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:18:31:893 KERNEL/(6121:6126): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:18:42:928 KERNEL/(6121:6126): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:18:53:953 KERNEL/(6121:6126): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:19:04:967 KERNEL/(6121:6126): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:19:16:998 KERNEL/(6121:6126): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:19:21:017 KERNEL/(6121:6127): PID:  1 - Bloqueado por: PANTALLA '
+[DEBUG] 18:19:21:780 KERNEL/(6121:6126): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 18:19:21:783 KERNEL/(6121:6127): PID: 1 - Estado Anterior: EXEC , Estado Actual: EXIT
+[DEBUG] 18:19:21:800 KERNEL/(6121:6125): PID: 2 - Estado Anterior: NEW, Estado Actual: READY
+[DEBUG] 18:19:21:800 KERNEL/(6121:6126): Cola ready FIFO: '[ 2 ] '
+[DEBUG] 18:19:27:894 KERNEL/(6121:6126): Cola ready FIFO: '[ 2 ] '
+[DEBUG] 18:19:37:977 KERNEL/(6121:6127): PID:  2 - Bloqueado por: PANTALLA '
+[DEBUG] 18:19:38:745 KERNEL/(6121:6126): Cola ready FIFO: '[ 2 ] '
+[DEBUG] 18:19:38:748 KERNEL/(6121:6127): PID: 2 - Estado Anterior: EXEC , Estado Actual: EXIT
+[DEBUG] 18:19:38:769 KERNEL/(6121:6125): PID: 3 - Estado Anterior: NEW, Estado Actual: READY
+[DEBUG] 18:19:38:769 KERNEL/(6121:6126): Cola ready FIFO: '[ 3 ] '
+[DEBUG] 18:19:39:777 KERNEL/(6121:6127): PID: 3 - Estado Anterior: EXEC , Estado Actual: EXIT
+[INFO] 01:41:15:364 KERNEL/(11683:12192): Creación de Proceso: se crea el proceso 1 en NEW
+[INFO] 01:41:15:368 KERNEL/(11683:11688): Cambio de Estado: PID 1 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 01:41:15:368 KERNEL/(11683:11689): Cola ready FIFO: [1]
+[INFO] 01:41:15:369 KERNEL/(11683:11689): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:41:15:410 KERNEL/(11683:12193): Page Fault PID: 1 - Segmento: 0 - Pagina: 0
+[INFO] 01:41:15:568 KERNEL/(11683:11689): Cola ready FIFO: [1]
+[INFO] 01:41:15:570 KERNEL/(11683:11689): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:41:15:844 KERNEL/(11683:12196): Page Fault PID: 1 - Segmento: 0 - Pagina: 2
+[INFO] 01:41:15:951 KERNEL/(11683:11689): Cola ready FIFO: [1]
+[INFO] 01:41:15:951 KERNEL/(11683:11689): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:41:15:990 KERNEL/(11683:12199): Creación de Proceso: se crea el proceso 2 en NEW
+[INFO] 01:41:15:993 KERNEL/(11683:11688): Cambio de Estado: PID 2 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 01:41:16:224 KERNEL/(11683:11689): Cola ready FIFO: [2]
+[INFO] 01:41:16:225 KERNEL/(11683:11689): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:41:16:231 KERNEL/(11683:12200): Page Fault PID: 1 - Segmento: 0 - Pagina: 4
+[INFO] 01:41:16:314 KERNEL/(11683:12203): Page Fault PID: 2 - Segmento: 0 - Pagina: 0
+[INFO] 01:41:16:379 KERNEL/(11683:11689): Cola ready FIFO: [2]
+[INFO] 01:41:16:380 KERNEL/(11683:11689): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:41:16:393 KERNEL/(11683:12209): Page Fault PID: 2 - Segmento: 0 - Pagina: 0
+[INFO] 01:41:16:486 KERNEL/(11683:11689): Cola ready FIFO: [2]
+[INFO] 01:41:16:487 KERNEL/(11683:11689): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:41:16:502 KERNEL/(11683:12221): Page Fault PID: 2 - Segmento: 0 - Pagina: 2
+[INFO] 01:41:16:593 KERNEL/(11683:11689): Cola ready FIFO: [2]
+[INFO] 01:41:16:594 KERNEL/(11683:11689): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:41:16:618 KERNEL/(11683:12228): Page Fault PID: 2 - Segmento: 0 - Pagina: 2
+[INFO] 01:41:16:704 KERNEL/(11683:11689): Cola ready FIFO: [2]
+[INFO] 01:41:16:705 KERNEL/(11683:11689): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:41:16:737 KERNEL/(11683:12238): Page Fault PID: 2 - Segmento: 0 - Pagina: 4
+[INFO] 01:41:16:813 KERNEL/(11683:11689): Cola ready FIFO: [2]
+[INFO] 01:41:16:813 KERNEL/(11683:11689): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:41:16:866 KERNEL/(11683:12249): Page Fault PID: 2 - Segmento: 0 - Pagina: 4
+[INFO] 01:41:16:925 KERNEL/(11683:11689): Cola ready FIFO: [2]
+[INFO] 01:41:16:926 KERNEL/(11683:11689): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:41:16:949 KERNEL/(11683:12256): Creación de Proceso: se crea el proceso 3 en NEW
+[INFO] 01:41:16:990 KERNEL/(11683:12258): Page Fault PID: 2 - Segmento: 0 - Pagina: 6
+[INFO] 01:41:17:033 KERNEL/(11683:11689): Cola ready FIFO: [2]
+[INFO] 01:41:17:034 KERNEL/(11683:11689): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:04:264 KERNEL/(12693:12873): Creación de Proceso: se crea el proceso 1 en NEW
+[INFO] 01:42:04:266 KERNEL/(12693:12697): Cambio de Estado: PID 1 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 01:42:04:266 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:04:266 KERNEL/(12693:12698): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:04:316 KERNEL/(12693:12874): Page Fault PID: 1 - Segmento: 0 - Pagina: 0
+[INFO] 01:42:04:470 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:04:472 KERNEL/(12693:12698): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:04:761 KERNEL/(12693:12875): Page Fault PID: 1 - Segmento: 0 - Pagina: 2
+[INFO] 01:42:04:866 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:04:866 KERNEL/(12693:12698): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:04:871 KERNEL/(12693:12878): Creación de Proceso: se crea el proceso 2 en NEW
+[INFO] 01:42:04:873 KERNEL/(12693:12697): Cambio de Estado: PID 2 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 01:42:05:135 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:05:135 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:05:144 KERNEL/(12693:12879): Page Fault PID: 1 - Segmento: 0 - Pagina: 4
+[INFO] 01:42:05:218 KERNEL/(12693:12881): Page Fault PID: 2 - Segmento: 0 - Pagina: 0
+[INFO] 01:42:05:292 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:05:293 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:05:299 KERNEL/(12693:12888): Page Fault PID: 2 - Segmento: 0 - Pagina: 0
+[INFO] 01:42:05:400 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:05:401 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:05:427 KERNEL/(12693:12899): Page Fault PID: 2 - Segmento: 0 - Pagina: 2
+[INFO] 01:42:05:516 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:05:517 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:05:548 KERNEL/(12693:12902): Page Fault PID: 2 - Segmento: 0 - Pagina: 2
+[INFO] 01:42:05:637 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:05:638 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:05:776 KERNEL/(12693:12920): Creación de Proceso: se crea el proceso 3 en NEW
+[INFO] 01:42:05:777 KERNEL/(12693:12697): Cambio de Estado: PID 3 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 01:42:05:904 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:05:904 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:05:904 KERNEL/(12693:12698): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:05:919 KERNEL/(12693:12932): Page Fault PID: 2 - Segmento: 0 - Pagina: 4
+[INFO] 01:42:06:243 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:06:244 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:06:248 KERNEL/(12693:12698): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:06:255 KERNEL/(12693:12943): Page Fault PID: 1 - Segmento: 0 - Pagina: 6
+[INFO] 01:42:06:278 KERNEL/(12693:12699): Motivo de Bloqueo: PID 3 - Bloqueado por: DISCO 
+[INFO] 01:42:06:278 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:06:279 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:06:587 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:06:587 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:06:588 KERNEL/(12693:12698): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:06:590 KERNEL/(12693:12945): Page Fault PID: 2 - Segmento: 0 - Pagina: 6
+[INFO] 01:42:06:617 KERNEL/(12693:12699): Motivo de Bloqueo: PID 3 - Bloqueado por: IMPRESORA 
+[INFO] 01:42:06:618 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:06:618 KERNEL/(12693:12698): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:07:194 KERNEL/(12693:12989): Creación de Proceso: se crea el proceso 4 en NEW
+[INFO] 01:42:07:212 KERNEL/(12693:12697): Cambio de Estado: PID 4 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 01:42:08:079 KERNEL/(12693:12699): Motivo de Bloqueo: PID 1 - Bloqueado por: DISCO 
+[INFO] 01:42:08:080 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:08:080 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:08:080 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:08:081 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:08:472 KERNEL/(12693:13017): Creación de Proceso: se crea el proceso 5 en NEW
+[INFO] 01:42:08:913 KERNEL/(12693:12699): Motivo de Bloqueo: PID 2 - Bloqueado por: DISCO 
+[INFO] 01:42:08:914 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:08:914 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:08:914 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:08:914 KERNEL/(12693:12698): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:08:949 KERNEL/(12693:12699): Motivo de Bloqueo: PID 3 - Bloqueado por: DISCO 
+[INFO] 01:42:08:949 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:08:949 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:08:949 KERNEL/(12693:12698): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:08:981 KERNEL/(12693:12699): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:42:08:982 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:08:982 KERNEL/(12693:12698): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:09:160 KERNEL/(12693:12699): Motivo de Bloqueo: PID 1 - Bloqueado por: DISCO 
+[INFO] 01:42:09:160 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:09:160 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:09:160 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:09:160 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:09:192 KERNEL/(12693:12699): Motivo de Bloqueo: PID 2 - Bloqueado por: IMPRESORA 
+[INFO] 01:42:09:192 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:09:192 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:09:192 KERNEL/(12693:12698): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:09:230 KERNEL/(12693:12699): Motivo de Bloqueo: PID 3 - Bloqueado por: IMPRESORA 
+[INFO] 01:42:09:230 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:09:230 KERNEL/(12693:12698): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:09:264 KERNEL/(12693:12699): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:42:09:281 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:09:281 KERNEL/(12693:12698): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:09:367 KERNEL/(12693:12699): Motivo de Bloqueo: PID 1 - Bloqueado por: IMPRESORA 
+[INFO] 01:42:09:367 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:09:367 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:09:398 KERNEL/(12693:12699): Motivo de Bloqueo: PID 2 - Bloqueado por: DISCO 
+[INFO] 01:42:09:418 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:09:419 KERNEL/(12693:12698): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:09:447 KERNEL/(12693:12699): Motivo de Bloqueo: PID 3 - Bloqueado por: DISCO 
+[INFO] 01:42:09:452 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:09:453 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:09:483 KERNEL/(12693:12699): Motivo de Bloqueo: PID 2 - Bloqueado por: IMPRESORA 
+[INFO] 01:42:09:513 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:09:513 KERNEL/(12693:12698): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:09:545 KERNEL/(12693:12699): Motivo de Bloqueo: PID 3 - Bloqueado por: IMPRESORA 
+[INFO] 01:42:09:545 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:09:546 KERNEL/(12693:12698): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:09:575 KERNEL/(12693:12699): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:42:09:640 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:09:641 KERNEL/(12693:12698): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:09:669 KERNEL/(12693:12699): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:42:09:721 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:09:721 KERNEL/(12693:12698): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:09:755 KERNEL/(12693:13052): Creación de Proceso: se crea el proceso 6 en NEW
+[INFO] 01:42:11:653 KERNEL/(12693:12699): Motivo de Bloqueo: PID 1 - Bloqueado por: PANTALLA 
+[INFO] 01:42:11:653 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:11:654 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:11:654 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:11:654 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:11:687 KERNEL/(12693:12699): Motivo de Bloqueo: PID 2 - Bloqueado por: DISCO 
+[INFO] 01:42:11:687 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:11:687 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:11:687 KERNEL/(12693:12698): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:11:767 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:11:767 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:11:769 KERNEL/(12693:12698): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:11:786 KERNEL/(12693:13132): Page Fault PID: 3 - Segmento: 0 - Pagina: 0
+[INFO] 01:42:11:797 KERNEL/(12693:12699): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:42:11:797 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:11:797 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:11:831 KERNEL/(12693:12699): Motivo de Bloqueo: PID 2 - Bloqueado por: IMPRESORA 
+[INFO] 01:42:11:856 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:11:857 KERNEL/(12693:12698): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:11:886 KERNEL/(12693:12699): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:42:11:933 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:11:936 KERNEL/(12693:12698): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:12:200 KERNEL/(12693:12699): Motivo de Bloqueo: PID 3 - Bloqueado por: DISCO 
+[INFO] 01:42:12:201 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:12:201 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:12:201 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:12:201 KERNEL/(12693:12698): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:12:237 KERNEL/(12693:12699): Motivo de Bloqueo: PID 2 - Bloqueado por: DISCO 
+[INFO] 01:42:12:238 KERNEL/(12693:12698): Cola ready FIFO: [4]
+[INFO] 01:42:12:238 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:12:238 KERNEL/(12693:12698): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:12:323 KERNEL/(12693:12698): Cola ready FIFO: [1]
+[INFO] 01:42:12:323 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:12:324 KERNEL/(12693:12698): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:42:12:328 KERNEL/(12693:12699): Motivo de finalizacion: Exit
+[INFO] 01:42:12:330 KERNEL/(12693:12699): Cambio de Estado: PID 1 - Estado Anterior: EXEC , Estado Actual: EXIT
+[INFO] 01:42:12:332 KERNEL/(12693:12698): Cola ready FIFO: [3]
+[INFO] 01:42:12:332 KERNEL/(12693:12698): Cola ready FIFO: [2]
+[INFO] 01:42:12:332 KERNEL/(12693:12698): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:48:22:183 KERNEL/(15218:15685): Creación de Proceso: se crea el proceso 1 en NEW
+[INFO] 01:48:30:283 KERNEL/(15218:15238): Cambio de Estado: PID 1 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 01:48:30:284 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:48:30:284 KERNEL/(15218:15240): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:48:46:454 KERNEL/(15218:15857): Creación de Proceso: se crea el proceso 2 en NEW
+[INFO] 01:48:52:924 KERNEL/(15218:15238): Cambio de Estado: PID 2 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 01:48:52:938 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:48:52:939 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:48:57:068 KERNEL/(15218:15974): Page Fault PID: 1 - Segmento: 0 - Pagina: 0
+[INFO] 01:49:01:451 KERNEL/(15218:16021): Creación de Proceso: se crea el proceso 3 en NEW
+[INFO] 01:49:10:917 KERNEL/(15218:15238): Cambio de Estado: PID 3 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 01:49:15:430 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:49:15:430 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:49:15:430 KERNEL/(15218:15240): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:49:17:770 KERNEL/(15218:16163): Page Fault PID: 2 - Segmento: 0 - Pagina: 0
+[INFO] 01:49:26:471 KERNEL/(15218:16203): Creación de Proceso: se crea el proceso 4 en NEW
+[INFO] 01:49:40:331 KERNEL/(15218:15238): Cambio de Estado: PID 4 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 01:49:44:120 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:49:44:121 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:49:44:121 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:49:44:123 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:49:49:076 KERNEL/(15218:16404): Page Fault PID: 1 - Segmento: 0 - Pagina: 2
+[INFO] 01:49:49:084 KERNEL/(15218:16403): Creación de Proceso: se crea el proceso 5 en NEW
+[INFO] 01:50:06:335 KERNEL/(15218:16562): Creación de Proceso: se crea el proceso 6 en NEW
+[INFO] 01:50:11:645 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: DISCO 
+[INFO] 01:50:11:646 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:50:11:646 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:50:11:646 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:50:11:648 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:50:29:547 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:50:29:548 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:50:29:548 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:50:29:549 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:50:31:831 KERNEL/(15218:16714): Page Fault PID: 2 - Segmento: 0 - Pagina: 2
+[INFO] 01:50:42:457 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:50:42:458 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:50:42:458 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:50:42:458 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:50:42:459 KERNEL/(15218:15240): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:50:55:050 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:50:55:050 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:50:55:050 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:50:55:052 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:50:57:103 KERNEL/(15218:16961): Page Fault PID: 1 - Segmento: 0 - Pagina: 4
+[INFO] 01:51:07:494 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: IMPRESORA 
+[INFO] 01:51:07:495 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:51:07:495 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:51:07:495 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:51:07:496 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:51:20:323 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:51:20:323 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:51:20:324 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:51:20:325 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:51:22:039 KERNEL/(15218:17153): Page Fault PID: 2 - Segmento: 0 - Pagina: 4
+[INFO] 01:51:31:467 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:51:31:468 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:51:31:468 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:51:31:468 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:51:31:475 KERNEL/(15218:15240): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:51:41:831 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:51:41:831 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:51:41:831 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:51:41:833 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:51:43:336 KERNEL/(15218:17341): Page Fault PID: 1 - Segmento: 0 - Pagina: 6
+[INFO] 01:51:53:455 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: DISCO 
+[INFO] 01:51:53:459 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:51:53:459 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:51:53:459 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:51:53:461 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:52:08:034 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:52:08:034 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:52:08:036 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:52:08:038 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:52:09:987 KERNEL/(15218:17590): Page Fault PID: 2 - Segmento: 0 - Pagina: 6
+[INFO] 01:52:18:932 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:52:18:932 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:52:18:933 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:52:18:933 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:52:18:934 KERNEL/(15218:15240): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:52:46:489 KERNEL/(15218:15237): Motivo de Bloqueo: PID 1 - Bloqueado por: DISCO 
+[INFO] 01:52:46:490 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:52:46:490 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:52:46:490 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:52:46:494 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:52:50:529 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: IMPRESORA 
+[INFO] 01:52:50:530 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:52:50:530 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:52:50:535 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:52:54:613 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: DISCO 
+[INFO] 01:52:54:614 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:52:54:614 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:52:54:615 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:05:981 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:53:05:982 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:53:05:982 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:53:05:984 KERNEL/(15218:15240): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:13:097 KERNEL/(15218:15237): Motivo de Bloqueo: PID 1 - Bloqueado por: DISCO 
+[INFO] 01:53:13:098 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:53:13:098 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:53:13:098 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:13:100 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:16:163 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: DISCO 
+[INFO] 01:53:16:163 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:53:16:164 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:16:164 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:18:064 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: IMPRESORA 
+[INFO] 01:53:18:066 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:18:069 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:53:18:074 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:20:131 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:53:20:132 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:53:20:132 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:53:20:135 KERNEL/(15218:15240): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:21:285 KERNEL/(15218:15237): Motivo de Bloqueo: PID 1 - Bloqueado por: IMPRESORA 
+[INFO] 01:53:21:286 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:53:21:286 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:53:21:287 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:21:289 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:22:746 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: IMPRESORA 
+[INFO] 01:53:22:748 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:53:22:748 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:22:750 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:23:798 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: DISCO 
+[INFO] 01:53:23:799 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:23:799 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:53:23:802 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:25:114 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:53:25:115 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:53:25:115 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:53:25:117 KERNEL/(15218:15240): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:28:418 KERNEL/(15218:15237): Motivo de Bloqueo: PID 1 - Bloqueado por: PANTALLA 
+[INFO] 01:53:28:431 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:53:28:432 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:53:28:432 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:28:435 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:35:002 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:53:35:003 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:35:005 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:37:508 KERNEL/(15218:18160): Page Fault PID: 3 - Segmento: 0 - Pagina: 0
+[INFO] 01:53:41:079 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: IMPRESORA 
+[INFO] 01:53:41:080 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:41:081 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:53:41:083 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:44:471 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:53:44:471 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:53:44:475 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:45:808 KERNEL/(15218:18271): Page Fault PID: 4 - Segmento: 0 - Pagina: 0
+[INFO] 01:53:46:086 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: DISCO 
+[INFO] 01:53:46:088 KERNEL/(15218:15240): Cola ready FIFO: [1]
+[INFO] 01:53:46:088 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:53:46:088 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:46:093 KERNEL/(15218:15240): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:47:026 KERNEL/(15218:15237): Motivo de finalizacion: Exit
+[INFO] 01:53:47:030 KERNEL/(15218:15237): Cambio de Estado: PID 1 - Estado Anterior: EXEC , Estado Actual: EXIT
+[INFO] 01:53:47:031 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:53:47:031 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:47:031 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:49:639 KERNEL/(15218:15238): Cambio de Estado: PID 5 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 01:53:49:683 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: DISCO 
+[INFO] 01:53:49:684 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:49:684 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:53:49:684 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:53:49:687 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:51:530 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:53:51:531 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:53:51:531 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:53:51:531 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:53:51:531 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:52:786 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: IMPRESORA 
+[INFO] 01:53:52:788 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:53:52:788 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:53:52:788 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:52:791 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:53:839 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:53:53:858 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:53:53:859 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:53:861 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:53:56:680 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: IMPRESORA 
+[INFO] 01:53:56:684 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:53:56:686 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:53:56:687 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:01:695 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:01:697 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:54:01:697 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:01:699 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:05:430 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: DISCO 
+[INFO] 01:54:05:431 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:05:432 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:05:432 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:05:434 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:06:903 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: DISCO 
+[INFO] 01:54:06:905 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:06:905 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:06:906 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:08:585 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:08:586 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:54:08:586 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:10:254 KERNEL/(15218:18546): Page Fault PID: 5 - Segmento: 0 - Pagina: 0
+[INFO] 01:54:10:558 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:54:10:560 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:54:10:560 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:10:560 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:10:562 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:14:193 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:14:193 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:14:194 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:14:194 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:14:198 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:14:232 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:14:234 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:14:234 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:14:236 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:14:536 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:14:557 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:14:557 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:54:14:557 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:14:559 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:29:109 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:29:111 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:54:29:111 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:29:112 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:29:437 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: DISCO 
+[INFO] 01:54:29:439 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:29:439 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:29:441 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:29:487 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: DISCO 
+[INFO] 01:54:29:488 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:29:489 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:29:809 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:54:29:810 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:54:29:810 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:29:810 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:29:811 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:30:121 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:30:122 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:30:122 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:30:122 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:30:125 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:30:159 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:30:160 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:30:160 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:30:165 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:30:193 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:30:211 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:30:212 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:30:512 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:30:514 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:54:30:514 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:30:518 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:30:546 KERNEL/(15218:15237): Motivo de Bloqueo: PID 3 - Bloqueado por: PANTALLA 
+[INFO] 01:54:30:556 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:30:559 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:30:592 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: DISCO 
+[INFO] 01:54:30:621 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:30:622 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:30:657 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: PANTALLA 
+[INFO] 01:54:30:665 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:30:666 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:30:702 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:30:720 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:30:721 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:31:012 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:31:026 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:31:027 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:31:059 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: PANTALLA 
+[INFO] 01:54:31:067 KERNEL/(15218:15240): Cola ready FIFO: [3]
+[INFO] 01:54:31:069 KERNEL/(15218:15240): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:31:746 KERNEL/(15218:15237): Motivo de finalizacion: Segmentation Fault
+[INFO] 01:54:31:747 KERNEL/(15218:15237): Cambio de Estado: PID 3 - Estado Anterior: EXEC , Estado Actual: EXIT
+[INFO] 01:54:31:747 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:31:748 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:31:748 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:31:748 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:31:763 KERNEL/(15218:15238): Cambio de Estado: PID 6 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 01:54:36:457 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:36:457 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:36:458 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:36:459 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:36:477 KERNEL/(15218:18844): Page Fault PID: 4 - Segmento: 0 - Pagina: 1
+[INFO] 01:54:37:010 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:37:016 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:37:016 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:37:017 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:37:019 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:37:167 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:37:167 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:37:168 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:37:173 KERNEL/(15218:18890): Page Fault PID: 2 - Segmento: 0 - Pagina: 8
+[INFO] 01:54:37:229 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:37:240 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:37:243 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:39:530 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:39:532 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:39:532 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:39:532 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:39:534 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:39:852 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:39:852 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:39:852 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:39:855 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:39:874 KERNEL/(15218:18936): Page Fault PID: 2 - Segmento: 0 - Pagina: 9
+[INFO] 01:54:40:411 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:40:422 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:40:423 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:40:423 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:40:425 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:40:457 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:40:470 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:40:470 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:40:471 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:40:516 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:54:40:517 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:40:519 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:41:309 KERNEL/(15218:15237): Motivo de Bloqueo: PID 2 - Bloqueado por: PANTALLA 
+[INFO] 01:54:41:316 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:41:316 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:41:316 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:41:316 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:41:363 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:41:364 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:41:365 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:41:365 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:41:921 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:41:930 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:41:931 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:41:932 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:41:935 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:42:002 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:42:003 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:42:005 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:42:011 KERNEL/(15218:18997): Page Fault PID: 6 - Segmento: 0 - Pagina: 0
+[INFO] 01:54:42:047 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:54:42:048 KERNEL/(15218:15240): Cola ready FIFO: [2]
+[INFO] 01:54:42:049 KERNEL/(15218:15240): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:42:051 KERNEL/(15218:15237): Motivo de finalizacion: Exit
+[INFO] 01:54:42:055 KERNEL/(15218:15237): Cambio de Estado: PID 2 - Estado Anterior: EXEC , Estado Actual: EXIT
+[INFO] 01:54:42:123 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:42:125 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:42:163 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:42:165 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:42:168 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:42:719 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:42:728 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:42:729 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:42:730 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:42:767 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:54:42:769 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:42:771 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:43:321 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:43:327 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:43:327 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:43:330 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:43:382 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:43:383 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:43:383 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:43:940 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:43:950 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:43:950 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:43:953 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:44:005 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: DISCO 
+[INFO] 01:54:44:006 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:44:007 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:44:559 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:44:569 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:44:569 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:44:569 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:44:609 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: IMPRESORA 
+[INFO] 01:54:44:611 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:44:613 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:45:198 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:45:218 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:45:218 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:45:219 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:45:247 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: PANTALLA 
+[INFO] 01:54:45:255 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:45:258 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:45:803 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:45:816 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:45:816 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:45:818 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:46:370 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:46:379 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:46:380 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:46:383 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:47:132 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:47:132 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:47:136 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:47:155 KERNEL/(15218:19108): Page Fault PID: 4 - Segmento: 0 - Pagina: 2
+[INFO] 01:54:47:686 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:47:691 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:47:692 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:47:695 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:48:249 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:48:254 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:48:255 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:48:257 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:48:522 KERNEL/(15218:15237): Motivo de Bloqueo: PID 4 - Bloqueado por: PANTALLA 
+[INFO] 01:54:48:532 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:48:532 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:49:080 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:49:088 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:49:088 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:49:088 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:49:657 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:49:683 KERNEL/(15218:15240): Cola ready FIFO: [4]
+[INFO] 01:54:49:683 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:49:684 KERNEL/(15218:15240): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:49:687 KERNEL/(15218:15237): Motivo de finalizacion: Exit
+[INFO] 01:54:49:687 KERNEL/(15218:15237): Cambio de Estado: PID 4 - Estado Anterior: EXEC , Estado Actual: EXIT
+[INFO] 01:54:49:688 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:49:688 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:50:245 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:50:253 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:50:255 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:50:813 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:50:825 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:50:828 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:51:376 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:51:388 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:51:391 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:51:951 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:51:969 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:51:969 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:52:520 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:52:529 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:52:530 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:53:075 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:53:082 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:53:085 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:53:637 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:53:656 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:53:659 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:54:247 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:54:252 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:54:256 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:54:826 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:54:836 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:54:838 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:55:389 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:55:401 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:55:406 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:55:955 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:55:962 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:55:966 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:56:531 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:56:538 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:56:540 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:56:877 KERNEL/(15218:19310): Page Fault PID: 5 - Segmento: 0 - Pagina: 1
+[INFO] 01:54:57:032 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:57:034 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:57:324 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:57:337 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:57:349 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:57:900 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:57:914 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:57:914 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:58:467 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:58:475 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:58:477 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:59:032 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:54:59:044 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:54:59:045 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:54:59:602 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:54:59:616 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:54:59:616 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:00:170 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:55:00:175 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:55:00:178 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:00:723 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:55:00:731 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:55:00:734 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:01:290 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:55:01:298 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:55:01:304 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:01:871 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:55:01:880 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:55:01:885 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:02:439 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:55:02:450 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:55:02:453 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:03:015 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:55:03:025 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:55:03:027 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:03:586 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:55:03:596 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:55:03:597 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:04:166 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:55:04:173 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:55:04:180 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:04:736 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:55:04:748 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:55:04:748 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:05:299 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:55:05:310 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:55:05:312 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:05:873 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:55:05:891 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:55:05:892 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:06:442 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:55:06:456 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:55:06:459 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:07:058 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:55:07:070 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:55:07:071 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:07:623 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:55:07:629 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:55:07:631 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:08:193 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:55:08:220 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:55:08:221 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:08:787 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:55:08:794 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:55:08:798 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:09:368 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:55:09:377 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:55:09:380 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:09:941 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:55:09:954 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:55:09:955 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:10:506 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:55:10:513 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:55:10:517 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:11:064 KERNEL/(15218:15237): Motivo de Bloqueo: PID 5 - Bloqueado por: PANTALLA 
+[INFO] 01:55:11:077 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:55:11:078 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:11:630 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:55:11:642 KERNEL/(15218:15240): Cola ready FIFO: [5]
+[INFO] 01:55:11:643 KERNEL/(15218:15240): Cambio de Estado: PID 5 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:11:646 KERNEL/(15218:15237): Motivo de finalizacion: Exit
+[INFO] 01:55:11:652 KERNEL/(15218:15237): Cambio de Estado: PID 5 - Estado Anterior: EXEC , Estado Actual: EXIT
+[INFO] 01:55:12:160 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:55:12:164 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:12:719 KERNEL/(15218:15237): Motivo de Bloqueo: PID 6 - Bloqueado por: PANTALLA 
+[INFO] 01:55:13:232 KERNEL/(15218:15240): Cola ready FIFO: [6]
+[INFO] 01:55:13:234 KERNEL/(15218:15240): Cambio de Estado: PID 6 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 01:55:13:237 KERNEL/(15218:15237): Motivo de finalizacion: Exit
+[INFO] 01:55:13:240 KERNEL/(15218:15237): Cambio de Estado: PID 6 - Estado Anterior: EXEC , Estado Actual: EXIT
+[DEBUG] 04:02:08:271 KERNEL/(3502:3867): Se crea el proceso: 1 en NEW
+[DEBUG] 04:02:08:317 KERNEL/(3502:3506): PID: 1 - Estado Anterior: NEW, Estado Actual: READY
+[DEBUG] 04:02:08:319 KERNEL/(3502:3507): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 04:02:08:658 KERNEL/(3502:3870): Se crea el proceso: 2 en NEW
+[DEBUG] 04:02:09:288 KERNEL/(3502:3877): Se crea el proceso: 3 en NEW
+[DEBUG] 04:02:09:397 KERNEL/(3502:3507): Cola ready FIFO: '[ 1 ] '
+[DEBUG] 04:02:09:961 KERNEL/(3502:3932): Se crea el proceso: 4 en NEW
+[INFO] 04:05:00:642 KERNEL/(4500:4640): Creación de Proceso: se crea el proceso 1 en NEW
+[INFO] 04:05:00:643 KERNEL/(4500:4504): Cambio de Estado: PID 1 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 04:05:00:644 KERNEL/(4500:4505): Cola ready FIFO: [1]
+[INFO] 04:05:00:644 KERNEL/(4500:4505): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 04:05:00:683 KERNEL/(4500:4641): Page Fault PID: 1 - Segmento: 0 - Pagina: 0
+[INFO] 04:05:00:836 KERNEL/(4500:4505): Cola ready FIFO: [1]
+[INFO] 04:05:00:838 KERNEL/(4500:4505): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 04:05:01:163 KERNEL/(4500:4645): Page Fault PID: 1 - Segmento: 0 - Pagina: 2
+[INFO] 04:05:01:269 KERNEL/(4500:4505): Cola ready FIFO: [1]
+[INFO] 04:05:01:270 KERNEL/(4500:4505): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 04:05:01:548 KERNEL/(4500:4646): Page Fault PID: 1 - Segmento: 0 - Pagina: 4
+[INFO] 04:05:01:652 KERNEL/(4500:4505): Cola ready FIFO: [1]
+[INFO] 04:05:01:653 KERNEL/(4500:4505): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 04:05:01:922 KERNEL/(4500:4664): Page Fault PID: 1 - Segmento: 0 - Pagina: 6
+[INFO] 04:05:02:025 KERNEL/(4500:4505): Cola ready FIFO: [1]
+[INFO] 04:05:02:026 KERNEL/(4500:4505): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 04:05:02:081 KERNEL/(4500:4672): Creación de Proceso: se crea el proceso 2 en NEW
+[INFO] 04:05:02:083 KERNEL/(4500:4504): Cambio de Estado: PID 2 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 04:05:03:448 KERNEL/(4500:4506): Motivo de Bloqueo: PID 1 - Bloqueado por: DISCO 
+[INFO] 04:05:03:448 KERNEL/(4500:4505): Cola ready FIFO: [2]
+[INFO] 04:05:03:448 KERNEL/(4500:4505): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 04:05:03:531 KERNEL/(4500:4723): Page Fault PID: 2 - Segmento: 0 - Pagina: 0
+[INFO] 04:05:03:572 KERNEL/(4500:4505): Cola ready FIFO: [1]
+[INFO] 04:05:03:574 KERNEL/(4500:4505): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 04:05:03:747 KERNEL/(4500:4506): Motivo de Bloqueo: PID 1 - Bloqueado por: DISCO 
+[INFO] 04:05:03:748 KERNEL/(4500:4505): Cola ready FIFO: [2]
+[INFO] 04:05:03:749 KERNEL/(4500:4505): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 04:05:04:077 KERNEL/(4500:4505): Cola ready FIFO: [1]
+[INFO] 04:05:04:078 KERNEL/(4500:4505): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 04:05:04:085 KERNEL/(4500:4737): Page Fault PID: 2 - Segmento: 0 - Pagina: 2
+[INFO] 04:05:04:160 KERNEL/(4500:4506): Motivo de Bloqueo: PID 1 - Bloqueado por: IMPRESORA 
+[INFO] 04:05:04:182 KERNEL/(4500:4741): Creación de Proceso: se crea el proceso 3 en NEW
+[INFO] 23:46:51:185 KERNEL/(2702:2887): Creación de Proceso: se crea el proceso 1 en NEW
+[INFO] 23:46:51:189 KERNEL/(2702:2706): Cambio de Estado: PID 1 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 23:46:51:190 KERNEL/(2702:2707): Cola ready FIFO: [1]
+[INFO] 23:46:51:190 KERNEL/(2702:2707): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 23:46:51:242 KERNEL/(2702:2888): Page Fault PID: 1 - Segmento: 0 - Pagina: 0
+[INFO] 23:46:51:395 KERNEL/(2702:2707): Cola ready FIFO: [1]
+[INFO] 23:46:51:396 KERNEL/(2702:2707): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 23:46:51:657 KERNEL/(2702:2708): Motivo de finalizacion: Segmentation Fault
+[INFO] 23:46:51:657 KERNEL/(2702:2708): Cambio de Estado: PID 1 - Estado Anterior: EXEC , Estado Actual: EXIT
+[INFO] 23:47:47:979 KERNEL/(2702:3099): Creación de Proceso: se crea el proceso 2 en NEW
+[INFO] 23:47:47:982 KERNEL/(2702:2706): Cambio de Estado: PID 2 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 23:47:47:982 KERNEL/(2702:2707): Cola ready FIFO: [2]
+[INFO] 23:47:47:982 KERNEL/(2702:2707): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 23:47:48:021 KERNEL/(2702:3100): Page Fault PID: 2 - Segmento: 0 - Pagina: 0
+[INFO] 23:47:48:173 KERNEL/(2702:2707): Cola ready FIFO: [2]
+[INFO] 23:47:48:173 KERNEL/(2702:2707): Cambio de Estado: PID 2 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 23:47:48:438 KERNEL/(2702:2708): Motivo de finalizacion: Segmentation Fault
+[INFO] 23:47:48:438 KERNEL/(2702:2708): Cambio de Estado: PID 2 - Estado Anterior: EXEC , Estado Actual: EXIT
+[INFO] 23:50:44:897 KERNEL/(2702:3301): Creación de Proceso: se crea el proceso 3 en NEW
+[INFO] 23:50:44:899 KERNEL/(2702:2706): Cambio de Estado: PID 3 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 23:50:44:900 KERNEL/(2702:2707): Cola ready FIFO: [3]
+[INFO] 23:50:44:900 KERNEL/(2702:2707): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 23:50:44:946 KERNEL/(2702:3302): Page Fault PID: 3 - Segmento: 0 - Pagina: 0
+[INFO] 23:50:45:095 KERNEL/(2702:2707): Cola ready FIFO: [3]
+[INFO] 23:50:45:096 KERNEL/(2702:2707): Cambio de Estado: PID 3 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 23:50:45:360 KERNEL/(2702:2708): Motivo de finalizacion: Segmentation Fault
+[INFO] 23:50:45:361 KERNEL/(2702:2708): Cambio de Estado: PID 3 - Estado Anterior: EXEC , Estado Actual: EXIT
+[INFO] 23:51:13:726 KERNEL/(2702:3460): Creación de Proceso: se crea el proceso 4 en NEW
+[INFO] 23:51:13:729 KERNEL/(2702:2706): Cambio de Estado: PID 4 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 23:51:13:730 KERNEL/(2702:2707): Cola ready FIFO: [4]
+[INFO] 23:51:13:730 KERNEL/(2702:2707): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 23:51:13:766 KERNEL/(2702:3462): Page Fault PID: 4 - Segmento: 0 - Pagina: 0
+[INFO] 23:51:13:919 KERNEL/(2702:2707): Cola ready FIFO: [4]
+[INFO] 23:51:13:920 KERNEL/(2702:2707): Cambio de Estado: PID 4 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 23:51:14:253 KERNEL/(2702:2708): Motivo de finalizacion: Segmentation Fault
+[INFO] 23:51:14:254 KERNEL/(2702:2708): Cambio de Estado: PID 4 - Estado Anterior: EXEC , Estado Actual: EXIT
+[INFO] 23:54:29:750 KERNEL/(4274:4643): Creación de Proceso: se crea el proceso 1 en NEW
+[INFO] 23:54:29:753 KERNEL/(4274:4280): Cambio de Estado: PID 1 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 23:54:29:754 KERNEL/(4274:4281): Cola ready FIFO: [1]
+[INFO] 23:54:29:754 KERNEL/(4274:4281): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
+[INFO] 23:56:01:264 KERNEL/(5200:5725): Creación de Proceso: se crea el proceso 1 en NEW
+[INFO] 23:56:01:270 KERNEL/(5200:5204): Cambio de Estado: PID 1 - Estado Anterior: NEW, Estado Actual: READY
+[INFO] 23:56:01:273 KERNEL/(5200:5205): Cola ready FIFO: [1]
+[INFO] 23:56:01:274 KERNEL/(5200:5205): Cambio de Estado: PID 1 - Estado Anterior: READY , Estado Actual: EXEC
